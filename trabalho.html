@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo: Arquitetura de Microprocessadores</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; color: #333; }
+        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
+        h2 { color: #2c3e50; margin-top: 20px; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 5px; }
+        strong { color: #111; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Arquitetura de Microprocessadores</h1>
+    </header>
+
+    <main>
+        <section id="definicao">
+            <h2>1. O que é um Microprocessador?</h2>
+            <p>É uma <strong>CPU completa integrada num único circuito integrado (CI)</strong> ou chip. Ele substituiu as antigas CPUs que utilizavam racks cheios de componentes separados, reduzindo falhas elétricas e aumentando a confiabilidade.</p>
+            <ul>
+                <li><strong>Marco Histórico:</strong> O <strong>Intel 4004 (1971)</strong>, criado por Federico Faggin, foi o primeiro microprocessador comercial. Operava a 740 kHz e processava 4 bits (um <em>nibble</em>).</li>
+            </ul>
+        </section>
+
+        <section id="funcionamento">
+            <h2>2. As 4 Etapas de Funcionamento</h2>
+            <ul>
+                <li><strong>Buscar:</strong> Captura a instrução guardada na memória do computador.</li>
+                <li><strong>Decodificar:</strong> Interpreta o comando recebido para identificar a ação necessária.</li>
+                <li><strong>Executar:</strong> Realiza a operação ou o cálculo solicitado.</li>
+                <li><strong>Armazenar:</strong> Salva o resultado final da execução de volta na memória.</li>
+            </ul>
+        </section>
+
+        <section id="componentes">
+            <h2>3. Componentes Principais</h2>
+            <ul>
+                <li><strong>ULA (Unidade Lógica e Aritmética):</strong> Executa os cálculos matemáticos e as comparações lógicas.</li>
+                <li><strong>UC (Unidade de Controle):</strong> Coordena o fluxo de dados e dita o ritmo de execução das instruções.</li>
+                <li><strong>Registos e Cache:</strong> Memórias ultra-rápidas localizadas dentro ou muito próximas da CPU para armazenamento temporário de dados frequentes.</li>
+                <li><strong>Barramentos:</strong> Linhas físicas (fios) que interconectam os componentes internos e periféricos.</li>
+                <li><strong>Transístores:</strong> Os blocos de construção microscópicos que funcionam como chaves elétricas e formam as portas lógicas.</li>
+                <li><strong>Núcleos (Cores):</strong> Unidades de processamento independentes que permitem executar várias tarefas em paralelo.</li>
+                <li><strong>Relógio (Clock):</strong> Circuito que dita a frequência de trabalho do processador (medido em MHz ou GHz).</li>
+            </ul>
+        </section>
+
+        <section id="arquitetura">
+            <h2>4. Elementos de Arquitetura</h2>
+            <ul>
+                <li><strong>ISA (Arquitetura de Conjunto de Instruções):</strong> Define os comandos que o chip entende, dividindo-se entre <strong>RISC</strong> (computação com conjunto reduzido) e <strong>CISC</strong> (conjunto complexo).</li>
+                <li><strong>Caminhos de Dados e Controle:</strong> Determinam a rota e a sequência exata em que os dados se movem dentro do chip.</li>
+                <li><strong>Hierarquia de Memória:</strong> Organização que prioriza a velocidade de acesso (Registos &gt; Cache &gt; RAM).</li>
+            </ul>
+        </section>
+
+        <section id="tipos">
+            <h2>5. Tipos e Casos de Uso</h2>
+            <ul>
+                <li><strong>Uso Geral:</strong> Processadores versáteis usados em computadores pessoais, portáteis e servidores.</li>
+                <li><strong>DSPs (Processadores de Sinal Digital):</strong> Chips especializados no processamento em tempo real de áudio, vídeo e imagem.</li>
+                <li><strong>Microcontroladores:</strong> Chips tudo-em-um (incluem CPU e memória interna) desenhados para sistemas embarcados específicos que operam sem a necessidade de um sistema operativo pesado.</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
